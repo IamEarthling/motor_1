@@ -1,18 +1,18 @@
 #include <Arduino.h>
+#include"LB.h"
 
-// put function declarations here:
-int myFunction(int, int);
+MyClass myfuntion;
+
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  myfuntion.set();
+  
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  myfuntion.motor();
+  myfuntion.commutatorLED();
+  myfuntion.PWM();
+  myfuntion.dp();
+  myfuntion.sevendisp();
 }
