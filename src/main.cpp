@@ -11,8 +11,7 @@ void setup() {
 
 void loop() {
   myfuntion.motor();
-  myfuntion.commutatorLED();
   myfuntion.PWM();
-  myfuntion.dp();
-  myfuntion.sevendisp();
+  myfuntion.contro();
+
 }
