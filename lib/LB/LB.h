@@ -24,6 +24,7 @@ extern bool controlMode;
 extern bool ledState ;
 extern int button;
 
+
 class MyClass {
 public:
     MyClass();
@@ -32,6 +33,7 @@ public:
     void commutatorLED();
     void PWM();
     void contro();
+
 };
 
 #endif
